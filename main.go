@@ -51,7 +51,7 @@ func main() {
 
 func hello(w http.ResponseWriter, r *http.Request) {
 
-	RespondWithJSON(w, 201, "HELLO")
+	RespondWithJSON(w, 201, "HELLO WORLD!")
 
 }
 
